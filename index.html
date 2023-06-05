@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+    <div id="topbar" class="flex justify-evenly">
+        <div class="container" style="display: flex; justify-content: space-between;">
+            <div class="contact-info d-flex align-items-center">
+                <i class="fa-solid fa-envelope"></i><a href="mailto:contact@example.com">healthcare@example.com</a>
+                <i class="fa-solid fa-mobile">+919856234220</i>
+            </div>
+            <div class="d-none d-lg-flex social-links align-items-center">
+                <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+cd
+    
+    <header id="header">
+        <div class="container d-flex align-items-center">
+            <a href="#" class="logo me-auto"><img src="./image/istockphoto-958800720-612x612.jpg" alt=""></a>
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a href="#home" class="nav-link scrolltto active">Home</a></li>
+                    <li><a href="#about" class="nav-link scrolltto">About</a></li>
+                    <li><a href="#services" class="nav-link scrolltto">Services</a></li>
+                    <li><a href="#doctors" class="nav-link scrolltto">Doctors</a></li>
+                    <li><a href="#contact" class="nav-link scrolltto">Contact</a></li>
+                    <i class="fa-solid fa-bars"></i><a href="appointement" class="appointement-btn scrolltto"> Make an
+                        Appointement</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    
+    <section id="home" class="d-flex align-items-center">
+        <div class="container">
+            <h1>Welcome to Healthcare</h1>
+            <h2>We are team of Specialized Doctors. <br> "Your devotion and care bring healing,comfort and hope."</h2>
+            <a href="#about" class="btn-get-started scrollto">Learn More</a>
+        </div>
+    </section>
+    <main id="main">
+
+        
+        <section id="section" class="service">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+                    <div class="col md 6 col-lg-3 d-flex align-items-stretch mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon"><i class="fas fa-heartbeat"></i></div>
+                            <h4 class="title"><a href="">Normal Checkup</a></h4>
+                            <p class="description">Regular health check-ups can identify any early signs of health
+                                issues. Finding problems early means that your chances for effective treatment are
+                                increased.</p>
+                        </div>
+                    </div>
+                    <div class="col md 6 col-lg-3 d-flex align-items-stretch mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon"><i class="fas fa-dna"></i></div>
+                            <h4 class="title"><a href="">Blood Test</a></h4>
+                            <p class="description">These tests can help evaluate your cholesterol levels, blood sugar
+                                levels, kidney function, liver function, and other vital parameters.</p>
+                        </div>
+                    </div>
+
+                    <div class="col md 6 col-lg-3 d-flex align-items-stretch mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon"><i class="fas fa-temperature-high"></i></div>
+                            <h4 class="title"><a href="">Body Temperature</a></h4>
+                            <p class="description">Body temperature is a measure of how well your body can make and get
+                                rid of heat. The body is very good at keeping its temperature within a safe range, even
+                                when temperatures outside the body change a lot.</p>
+                        </div>
+                    </div>
+
+                    <div class="col md 6 col-lg-3 d-flex align-items-stretch mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon"><i class="fas fa-hand-holding-medical"></i></div>
+                            <h4 class="title"><a href="">Medicine Use</a></h4>
+                            <p class="description">Medicines are chemicals or compounds used to cure, halt, or prevent
+                                disease; ease symptoms; or help in the diagnosis of illnesses. Advances in medicines
+                                have enabled doctors to cure many diseases and save lives.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+       
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>About Us</h2>
+                    <p>A hospital is a health care institution providing patient treatment with specialized health
+                        science and auxiliary healthcare staff and medical equipment.
+                    </p>
+                </div>
+                <div class="row">
+                    <div
+                        class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position:relative">
+                        <a href="http://youtu.be/h39m-e8JHDc" class="glightbox play-btn mb-4"></a>
+                    </div>
+                    <div
+                        class="col-xl-7 col-lg-6 icon-box d-flex flex-column justify-content-center align-items-stretch py-4 px-lg-5">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                            <h4 class="title"><a href="">HEALTH IS WEALTH</a></h4>
+                            <P class="description">"Health is the greatest of human blessings." </P>
+                        </div>
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa-solid fa-star-of-life"></i></div>
+                            <h4 class="title"><a href="">EMERGENCY</a></h4>
+                            <P class="description"> A hospital facility that is staffed 24 hours a day, 7 days a week,
+                                and provides unscheduled outpatient services to patients whose condition requires
+                                immediate attention.</P>
+                        </div>
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa-light fa-circle-question"></i></div>
+                            <h4 class="title"><a href="">SERVICES</a></h4>
+                            <P class="description"> A services like Regular Checkup, Blood Test, Medicines, Disabled
+                                perosn help, pharmocology, Cardiology, Anesthsiology, Neurology.</P>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Services</h2>
+                    <p>Hospital services include everything from basic health care to training and research for major
+                        medical school centres, as well as services created by a network of industry-owned institutions
+                        such as health maintenance organisations.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-md-stretch">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-heartbeat"></i></div>
+                            <h4><a href="">Regular Checkup</a></h4>
+                            <p>Regular health checks can help to identify early warning signs of disease or illness.
+                                Heart disease, diabetes and some cancers can often be picked up in their early stages,
+                                when treatment may be more successful.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-md-stretch">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa-solid fa-pills"></i></div>
+                            <h4><a href="">Medicine</a></h4>
+                            <p>Medicines can treat diseases and improve your health. If you are like most people, you
+                                need to take medicine at some point in your life. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-md-stretch">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa-solid fa-hospital-user"></i></i></div>
+                            <h4><a href="">Pharmalogist</a></h4>
+                            <p>The most-cited pharmacology and pharmacy journal advances access to pharmacological
+                                discoveries to prevent and treat human disease.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-md-stretch mt-4">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa-solid fa-dna"></i></div>
+                            <h4><a href="">Blood Test</a></h4>
+                            <p>The tests can give providers information about your organs, such as the heart, kidneys,
+                                and liver. And other disease test like Maleria, Typhiod, Dengue, Jaundice.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-md-stretch mt-4">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa-solid fa-wheelchair"></i></div>
+                            <h4><a href="">Disabled Person</a></h4>
+                            <p>Disabilities may be cognitive, developmental, intellectual, mental, physical, sensory, or
+                                a combination of multiple factors.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-md-stretch mt-4">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa-solid fa-notes-medical"></i></div>
+                            <h4><a href="">Health Post</a></h4>
+                            <p>Healthpost publishes latest health news, updates, survivors' stories that empower
+                                doctors, patients, researchers and other healthcare professionals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+       
+        <section id="appointement" class="appointement section-bg">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Make An Appointement</h2>
+                    <p>Fill in the form below and we will get back soon to you for more updates and plan your
+                        appointement.</p>
+                </div>
+                <form accept="" role="form" class="email-form">
+                    <div class="row">
+                        <div class="col-md-4 form-group">
+                            <input type="text" name="name" class="form" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-4 form-group mt-3 mt-md-0">
+                            <input type="email" name="email" class="form" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="col-md-4 form-group mt-3 mt-md-0">
+                            <input type="tel" name="email" class="phone" id="phone" placeholder="Your Phone">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 form-group mt-3">
+                            <input type="datetime" name="date" class="form datepicker" id="date"
+                                placeholder="Appointement Date">
+                        </div>
+
+                        <div class="col-md-4 form-group mt-3">
+                            <select name="age" id="age" class="form-select">
+                                <option value="">Select Age</option>
+                                <option value="age1">Below 18</option>
+                                <option value="age2">18-40</option>
+                                <option value="age3">Above 40</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-4 form-group mt-3">
+                            <select name="doctor" id="doctor" class="form-select">
+                                <option value="">Select Doctor</option>
+                                <option value="Doctor 1">Doctor 1</option>
+                                <option value="Doctor 2">Doctor 2</option>
+                                <option value="Doctor 3">Doctor 3</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <textarea name="" class="form-control" rows="5" placeholder="Message(optional)"></textarea>
+                    </div>
+                    <div class="text-center"><button type="submit">Make An Appointement</button></div>
+                </form>
+            </div>
+        </section>
+
+      
+
+        <section id="doctors" class="doctors">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Doctors</h2>
+                    <p>Doctors diagnose disease, provide treatment, counsel patients with injuries, diseases or
+                        illnesses.</p>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="member d-flex align-items-start">
+
+                            <div class="member-info">
+                                <h4>Vaidehi Shah</h4>
+                                <span>Chief Medical Officer</span>
+                                <p>MBBS, MD(Medicine)</p>
+                                <div class="social">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <div class="member d-flex align-items-start ">
+
+                            <div class="member-info">
+                                <h4>Siddhesh Patil</h4>
+                                <span>Anesthesiologist</span>
+                                <p> BAMS, MD (Anesthesia)</p>
+                                <div class="social">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start">
+
+                            <div class="member-info">
+                                <h4>Kanak Vaidya</h4>
+                                <span>Cardiologist</span>
+                                <p>BAMS, MD(Cardiology)</p>
+                                <div class="social">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start">
+                            <div class="member-info">
+                                <h4>Jayesh Sonawane</h4>
+                                <span>Neurologist</span>
+                                <p>MBBS, MD(Neurology)</p>
+                                <div class="social">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+       
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contact</h2>
+                    <p>Give us a call or send an email. If you are traveling to our clinic for an appointment, confirm
+                        the correct street address with your appointment staff ahead of time to avoid frustration. For
+                        more help with specific addresses see below.</p>
+                </div>
+
+              
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=university of pune&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://2yu.co"></a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        </style><a href="https://embedgooglemap.2yu.co/"></a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-lg-4">
+                            <div class="info">
+                                <div class="address">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <h4>Location:</h4>
+                                    <p>KEM Hospital Road,784520</p>
+                                </div>
+                                <div class="email">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <h4>Email:</h4>
+                                    <p>healthcare@example.com</p>
+                                </div>
+                                <div class="phone">
+                                    <i class="fa-solid fa-mobile"></i>
+                                    <h4>Phone No:</h4>
+                                    <p>+919856232054</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-8 mt-5 mt-lg-0">
+                            <form action="" role="form" class="email-form">
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" name="name" class="form-control" id="name"
+                                            placeholder="Your Name" required>
+                                    </div>
+
+
+                                    <div class=" col-md-6 form-group mt-3 mt-md-0">
+                                        <input type="email" name="email" class="form-control" id="email"
+                                            placeholder="Your Email" required>
+                                    </div>
+
+                                    <div class="form-group mt-3">
+                                        <input type="text" name="subject" class="subject" id="subject"
+                                            placeholder="Subject" required>
+                                    </div>
+
+                                    <div class="form-group mt-3">
+                                        <textarea name="message" class="form-control" rows="5"
+                                            placeholder="Message(Optioal)"></textarea>
+                                    </div>
+                                    <div class="text-center"><button type="submit">Send Message</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+  
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <h4>HEALTHCARE</h4>
+                            <p>KEM Hospital Road <br>
+                                784520,Pune
+                                <strong>Phone: </strong>+919856232054 <br>
+                                <Strong>Email: </Strong>healthcare@example.com <br>
+                            </p>
+
+                            <div class="social-links mt-3">
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-skype"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="#home"><i class="fa-solid fa-chevron-right">Home</a></i></li><br>
+                            <li><a href="#about"><i class="fa-solid fa-chevron-right">About</a></i></li><br>
+                            <li><a href="#services"><i class="fa-solid fa-chevron-right">Services</a></i></li><br>
+                            <li><a href="#doctor"><i class="fa-solid fa-chevron-right">Doctor</a></i></li><br>
+                            <li><a href="#contact"><i class="fa-solid fa-chevron-right">Contact</a></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="#Web Design"><i class="fa-solid fa-chevron-right">Web Design</a></i></li><br>
+                            <li><a href="#Web Developing"><i class="fa-solid fa-chevron-right">Web Developing</a></i>
+                            </li><br>
+                            <li><a href="#Web Tutorial"><i class="fa-solid fa-chevron-right">Web Tutorial</a></i></li>
+                            <br>
+                            <li><a href="#Marketing"><i class="fa-solid fa-chevron-right">Marketing</a></i></li><br>
+                            <li><a href="#Graphic Designing"><i class="fa-solid fa-chevron-right">Graphic
+                                        Designing</a></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-newsletters">
+                        <h4>Our NewsLetter</h4>
+                        <p>At HealthCare, we believe there is a better path to healing that humanizes the practice of health care and inspires hope in the Patient & family who need it most.</p>
+                        <form action="" method="POST">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>HEALTHCARE</span></strong>. All Right Reserved.
+            </div>
+            <div class="credits">
+                Designed by <a href="#">HEALTHCARE</a>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <div class="preloader">
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+            <i class="fa-solid fa-arrow-up-long"></i></a>
+
+    </div>
+
+    <!-- vendor Js File -->
+
+    <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/php-email-form/validate.js"></script>
+    <script src="vendor/purecounter/purecounter.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script> -->
+</body>
+
+
+</html>
