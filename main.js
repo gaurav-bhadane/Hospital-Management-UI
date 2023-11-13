@@ -1,6 +1,6 @@
 function() {
     "use strict";
-    // Arrow Function for basic Events
+    // Arrow Function for basic Events and functionalities
     const select = (el, all = false) => {
         el = el.trim()
         if (all) {
